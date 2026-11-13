@@ -1,0 +1,25 @@
+% !TEX program = xelatex
+% Compile with the working directory set to this file's directory.
+\documentclass[UTF8,a4paper,zihao=-4]{ctexart}
+\usepackage{labstyle}
+\LabDrafttrue
+\newcommand{\LabTitle}{电路实验报告}
+\newcommand{\LabInfo}{} % Only enter identity/date information provided by the user.
+\begin{document}
+\begin{center}
+  {\zihao{2}\heiti\LabTitle\par}
+  \ifx\LabInfo\empty\else\vspace{0.4em}{\small\LabInfo\par}\fi
+  \ifLabDraft\vspace{0.4em}{\small\color{red!65!black}草稿\par}\fi
+\end{center}
+\label{lab:body-start}
+\input{sections/01-purpose}
+\input{sections/02-principles}
+\input{sections/03-equipment}
+\input{sections/04-procedure}
+\input{sections/05-results}
+\input{sections/06-analysis}
+\input{sections/07-questions}
+\input{sections/08-reflection}
+\FloatBarrier
+\label{lab:body-end}
+\end{document}

@@ -1,0 +1,7 @@
+interface:
+
+  display_name: "大学电路实验报告"
+
+  short_description: "依据实验数据、照片与基本原理，生成固定八章、目标十五至二十页的中文报告"
+
+  default_prompt: "使用 $circuit-lab-report，根据我提供的实验数据、照片和基本原理，生成正文固定八章、目标 15—20 页的中文 LaTeX 电路实验报告。"

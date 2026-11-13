@@ -1,0 +1,864 @@
+{
+  "source_id": "circuit-theory-202309",
+  "sections": [
+    {
+      "title": "封面",
+      "pdf_start": 1,
+      "pdf_end": 1,
+      "id": "section-01",
+      "kind": "other"
+    },
+    {
+      "title": "目录",
+      "pdf_start": 2,
+      "pdf_end": 2,
+      "id": "section-02",
+      "kind": "other"
+    },
+    {
+      "title": "1.1 实验室规则",
+      "pdf_start": 3,
+      "pdf_end": 3,
+      "id": "section-03",
+      "kind": "other",
+      "printed_start": 1,
+      "printed_end": 1
+    },
+    {
+      "title": "1.2 实验室安全",
+      "pdf_start": 4,
+      "pdf_end": 5,
+      "id": "section-04",
+      "kind": "other",
+      "printed_start": 2,
+      "printed_end": 3
+    },
+    {
+      "title": "实验一 电位与电压的测量",
+      "pdf_start": 6,
+      "pdf_end": 7,
+      "id": "experiment-01",
+      "kind": "experiment",
+      "printed_start": 4,
+      "printed_end": 5
+    },
+    {
+      "title": "实验二 元件伏安特性的测试",
+      "pdf_start": 8,
+      "pdf_end": 12,
+      "id": "experiment-02",
+      "kind": "experiment",
+      "printed_start": 6,
+      "printed_end": 10
+    },
+    {
+      "title": "实验三 电压源和电流源的转换",
+      "pdf_start": 13,
+      "pdf_end": 16,
+      "id": "experiment-03",
+      "kind": "experiment",
+      "printed_start": 11,
+      "printed_end": 14
+    },
+    {
+      "title": "实验四 基尔霍夫定律",
+      "pdf_start": 17,
+      "pdf_end": 18,
+      "id": "experiment-04",
+      "kind": "experiment",
+      "printed_start": 15,
+      "printed_end": 16
+    },
+    {
+      "title": "实验五 叠加定理",
+      "pdf_start": 19,
+      "pdf_end": 21,
+      "id": "experiment-05",
+      "kind": "experiment",
+      "printed_start": 17,
+      "printed_end": 19
+    },
+    {
+      "title": "实验六 戴维南定理和诺顿定理",
+      "pdf_start": 22,
+      "pdf_end": 27,
+      "id": "experiment-06",
+      "kind": "experiment",
+      "printed_start": 20,
+      "printed_end": 25
+    },
+    {
+      "title": "实验七 最大功率传输条件测定",
+      "pdf_start": 28,
+      "pdf_end": 30,
+      "id": "experiment-07",
+      "kind": "experiment",
+      "printed_start": 26,
+      "printed_end": 28
+    },
+    {
+      "title": "实验八 常用电信号的观察与测量",
+      "pdf_start": 31,
+      "pdf_end": 36,
+      "id": "experiment-08",
+      "kind": "experiment",
+      "printed_start": 29,
+      "printed_end": 34
+    },
+    {
+      "title": "实验九 RC一阶电路动态响应过程研究",
+      "pdf_start": 37,
+      "pdf_end": 40,
+      "id": "experiment-09",
+      "kind": "experiment",
+      "printed_start": 35,
+      "printed_end": 38
+    },
+    {
+      "title": "实验十 二阶动态电路响应研究",
+      "pdf_start": 41,
+      "pdf_end": 44,
+      "id": "experiment-10",
+      "kind": "experiment",
+      "printed_start": 39,
+      "printed_end": 42
+    },
+    {
+      "title": "实验十一 R、L、C元件阻抗特性的研究",
+      "pdf_start": 45,
+      "pdf_end": 49,
+      "id": "experiment-11",
+      "kind": "experiment",
+      "printed_start": 43,
+      "printed_end": 47
+    },
+    {
+      "title": "实验十二 RC电路频率特性的研究",
+      "pdf_start": 50,
+      "pdf_end": 54,
+      "id": "experiment-12",
+      "kind": "experiment",
+      "printed_start": 48,
+      "printed_end": 52
+    },
+    {
+      "title": "实验十三 RLC串联电路的幅频特性与谐振现象",
+      "pdf_start": 55,
+      "pdf_end": 59,
+      "id": "experiment-13",
+      "kind": "experiment",
+      "printed_start": 53,
+      "printed_end": 57
+    },
+    {
+      "title": "实验十四 交流电路中的互感",
+      "pdf_start": 60,
+      "pdf_end": 64,
+      "id": "experiment-14",
+      "kind": "experiment",
+      "printed_start": 58,
+      "printed_end": 62
+    },
+    {
+      "title": "实验十五 运算放大器和受控源",
+      "pdf_start": 65,
+      "pdf_end": 71,
+      "id": "experiment-15",
+      "kind": "experiment",
+      "printed_start": 63,
+      "printed_end": 69
+    },
+    {
+      "title": "实验十六 二端口网络的研究",
+      "pdf_start": 72,
+      "pdf_end": 75,
+      "id": "experiment-16",
+      "kind": "experiment",
+      "printed_start": 70,
+      "printed_end": 73
+    },
+    {
+      "title": "实验十七 有源滤波器",
+      "pdf_start": 76,
+      "pdf_end": 83,
+      "id": "experiment-17",
+      "kind": "experiment",
+      "printed_start": 74,
+      "printed_end": 81
+    },
+    {
+      "title": "实验十八 负阻抗变换器",
+      "pdf_start": 84,
+      "pdf_end": 87,
+      "id": "experiment-18",
+      "kind": "experiment",
+      "printed_start": 82,
+      "printed_end": 85
+    },
+    {
+      "title": "附录1 电路基础实验箱",
+      "pdf_start": 88,
+      "pdf_end": 89,
+      "id": "equipment-01",
+      "kind": "equipment",
+      "printed_start": 86,
+      "printed_end": 87
+    },
+    {
+      "title": "附录2 万用表",
+      "pdf_start": 90,
+      "pdf_end": 92,
+      "id": "equipment-02",
+      "kind": "equipment",
+      "printed_start": 88,
+      "printed_end": 90
+    },
+    {
+      "title": "附录3 直流稳压电源",
+      "pdf_start": 93,
+      "pdf_end": 94,
+      "id": "equipment-03",
+      "kind": "equipment",
+      "printed_start": 91,
+      "printed_end": 92
+    },
+    {
+      "title": "附录4 信号发生器",
+      "pdf_start": 95,
+      "pdf_end": 96,
+      "id": "equipment-04",
+      "kind": "equipment",
+      "printed_start": 93,
+      "printed_end": 94
+    },
+    {
+      "title": "附录5 示波器",
+      "pdf_start": 97,
+      "pdf_end": 103,
+      "id": "equipment-05",
+      "kind": "equipment",
+      "printed_start": 95,
+      "printed_end": 101
+    }
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "characters": 70,
+      "first_nonempty_line": "电路理论基础实验"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "characters": 1765,
+      "first_nonempty_line": "目录"
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 1,
+      "characters": 635,
+      "first_nonempty_line": "1.1 实验室规则"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 2,
+      "characters": 906,
+      "first_nonempty_line": "1.2 实验室安全"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 3,
+      "characters": 163,
+      "first_nonempty_line": "7. 防止电灼伤烫伤。测量时也要防止各种原因造成的短路所产生的电弧灼"
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 4,
+      "characters": 682,
+      "first_nonempty_line": "实验一 电位与电压的测量"
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 5,
+      "characters": 233,
+      "first_nonempty_line": "实验一 电位与电压的测量"
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 6,
+      "characters": 704,
+      "first_nonempty_line": "实验二  元件伏安特性的测试"
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 7,
+      "characters": 783,
+      "first_nonempty_line": "实验二  元件伏安特性的测试"
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 8,
+      "characters": 773,
+      "first_nonempty_line": "实验二  元件伏安特性的测试"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 9,
+      "characters": 810,
+      "first_nonempty_line": "实验二  元件伏安特性的测试"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 10,
+      "characters": 166,
+      "first_nonempty_line": "实验二  元件伏安特性的测试"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 11,
+      "characters": 733,
+      "first_nonempty_line": "实验三 电压源和电流源的转换"
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 12,
+      "characters": 403,
+      "first_nonempty_line": "实验三 电压源和电流源的转换"
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 13,
+      "characters": 518,
+      "first_nonempty_line": "实验三 电压源和电流源的转换"
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 14,
+      "characters": 645,
+      "first_nonempty_line": "实验三 电压源和电流源的转换"
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 15,
+      "characters": 570,
+      "first_nonempty_line": "实验四  基尔霍夫定律"
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 16,
+      "characters": 762,
+      "first_nonempty_line": "实验四  基尔霍夫定律"
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 17,
+      "characters": 509,
+      "first_nonempty_line": "实验五  叠加定理"
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 18,
+      "characters": 572,
+      "first_nonempty_line": "实验五  叠加定理"
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 19,
+      "characters": 266,
+      "first_nonempty_line": "实验五  叠加定理"
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 20,
+      "characters": 656,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 21,
+      "characters": 638,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 22,
+      "characters": 590,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 23,
+      "characters": 514,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 24,
+      "characters": 728,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 25,
+      "characters": 814,
+      "first_nonempty_line": "实验六 戴维南定理和诺顿定理"
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 26,
+      "characters": 920,
+      "first_nonempty_line": "实验七 最大功率传输条件测定"
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 27,
+      "characters": 822,
+      "first_nonempty_line": "实验七 最大功率传输条件测定"
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 28,
+      "characters": 343,
+      "first_nonempty_line": "实验七 最大功率传输条件测定"
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 29,
+      "characters": 488,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 30,
+      "characters": 713,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 31,
+      "characters": 783,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 32,
+      "characters": 762,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 33,
+      "characters": 713,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 34,
+      "characters": 397,
+      "first_nonempty_line": "实验八   常用电信号的观察与测量"
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 35,
+      "characters": 621,
+      "first_nonempty_line": "实验九 RC 一阶电路动态响应过程研究"
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 36,
+      "characters": 643,
+      "first_nonempty_line": "实验九 RC 一阶电路动态响应过程研究"
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 37,
+      "characters": 443,
+      "first_nonempty_line": "实验九 RC 一阶电路动态响应过程研究"
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 38,
+      "characters": 608,
+      "first_nonempty_line": "实验九 RC 一阶电路动态响应过程研究"
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 39,
+      "characters": 649,
+      "first_nonempty_line": "实验十 二阶动态电路响应研究"
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 40,
+      "characters": 710,
+      "first_nonempty_line": "实验十 二阶动态电路响应研究"
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 41,
+      "characters": 489,
+      "first_nonempty_line": "实验十 二阶动态电路响应研究"
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 42,
+      "characters": 257,
+      "first_nonempty_line": "实验十 二阶动态电路响应研究"
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 43,
+      "characters": 646,
+      "first_nonempty_line": "实验十一  R、L、C 元件性能的研究"
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 44,
+      "characters": 623,
+      "first_nonempty_line": "实验十一  R、L、C 元件性能的研究"
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": 45,
+      "characters": 760,
+      "first_nonempty_line": "实验十一  R、L、C 元件性能的研究"
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 46,
+      "characters": 893,
+      "first_nonempty_line": "实验十一  R、L、C 元件性能的研究"
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 47,
+      "characters": 454,
+      "first_nonempty_line": "实验十一  R、L、C 元件性能的研究"
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 48,
+      "characters": 999,
+      "first_nonempty_line": "实验十二  RC 电路频率特性的研究"
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 49,
+      "characters": 520,
+      "first_nonempty_line": "实验十二  RC 电路频率特性的研究"
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 50,
+      "characters": 673,
+      "first_nonempty_line": "实验十二  RC 电路频率特性的研究"
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 51,
+      "characters": 710,
+      "first_nonempty_line": "实验十二  RC 电路频率特性的研究"
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 52,
+      "characters": 302,
+      "first_nonempty_line": "实验十二  RC 电路频率特性的研究"
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 53,
+      "characters": 645,
+      "first_nonempty_line": "实验十三  RLC 串联电路的幅频特性与谐振现象"
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 54,
+      "characters": 805,
+      "first_nonempty_line": "实验十三  RLC 串联电路的幅频特性与谐振现象"
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 55,
+      "characters": 460,
+      "first_nonempty_line": "实验十三  RLC 串联电路的幅频特性与谐振现象"
+    },
+    {
+      "pdf_page": 58,
+      "printed_page": 56,
+      "characters": 912,
+      "first_nonempty_line": "实验十三  RLC 串联电路的幅频特性与谐振现象"
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": 57,
+      "characters": 694,
+      "first_nonempty_line": "实验十三  RLC 串联电路的幅频特性与谐振现象"
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 58,
+      "characters": 799,
+      "first_nonempty_line": "实验十四  交流电路中的互感"
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 59,
+      "characters": 529,
+      "first_nonempty_line": "实验十四  交流电路中的互感"
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 60,
+      "characters": 461,
+      "first_nonempty_line": "实验十四  交流电路中的互感"
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 61,
+      "characters": 646,
+      "first_nonempty_line": "实验十四  交流电路中的互感"
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 62,
+      "characters": 259,
+      "first_nonempty_line": "实验十四  交流电路中的互感"
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 63,
+      "characters": 688,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 64,
+      "characters": 754,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 65,
+      "characters": 696,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 66,
+      "characters": 700,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 67,
+      "characters": 624,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 68,
+      "characters": 799,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 69,
+      "characters": 390,
+      "first_nonempty_line": "实验十五  运算放大器和受控源"
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": 70,
+      "characters": 459,
+      "first_nonempty_line": "实验十六 二端口网络的研究"
+    },
+    {
+      "pdf_page": 73,
+      "printed_page": 71,
+      "characters": 763,
+      "first_nonempty_line": "实验十六 二端口网络的研究"
+    },
+    {
+      "pdf_page": 74,
+      "printed_page": 72,
+      "characters": 626,
+      "first_nonempty_line": "实验十六 二端口网络的研究"
+    },
+    {
+      "pdf_page": 75,
+      "printed_page": 73,
+      "characters": 433,
+      "first_nonempty_line": "实验十六 二端口网络的研究"
+    },
+    {
+      "pdf_page": 76,
+      "printed_page": 74,
+      "characters": 641,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 77,
+      "printed_page": 75,
+      "characters": 730,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": 76,
+      "characters": 636,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": 77,
+      "characters": 674,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 78,
+      "characters": 749,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 79,
+      "characters": 466,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 80,
+      "characters": 787,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 81,
+      "characters": 494,
+      "first_nonempty_line": "实验十七  有源滤波器"
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 82,
+      "characters": 520,
+      "first_nonempty_line": "实验十八 负阻抗变换器"
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": 83,
+      "characters": 520,
+      "first_nonempty_line": "实验十八 负阻抗变换器"
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": 84,
+      "characters": 562,
+      "first_nonempty_line": "实验十八 负阻抗变换器"
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": 85,
+      "characters": 166,
+      "first_nonempty_line": "实验十八 负阻抗变换器"
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": 86,
+      "characters": 411,
+      "first_nonempty_line": "电路基础实验箱"
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": 87,
+      "characters": 698,
+      "first_nonempty_line": "电路基础实验箱"
+    },
+    {
+      "pdf_page": 90,
+      "printed_page": 88,
+      "characters": 369,
+      "first_nonempty_line": "万用表"
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 89,
+      "characters": 567,
+      "first_nonempty_line": "万用表"
+    },
+    {
+      "pdf_page": 92,
+      "printed_page": 90,
+      "characters": 537,
+      "first_nonempty_line": "万用表"
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 91,
+      "characters": 402,
+      "first_nonempty_line": "直流稳压电源"
+    },
+    {
+      "pdf_page": 94,
+      "printed_page": 92,
+      "characters": 605,
+      "first_nonempty_line": "直流稳压电源"
+    },
+    {
+      "pdf_page": 95,
+      "printed_page": 93,
+      "characters": 414,
+      "first_nonempty_line": "信号发生器"
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": 94,
+      "characters": 492,
+      "first_nonempty_line": "信号发生器"
+    },
+    {
+      "pdf_page": 97,
+      "printed_page": 95,
+      "characters": 282,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 98,
+      "printed_page": 96,
+      "characters": 58,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": 97,
+      "characters": 611,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": 98,
+      "characters": 502,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": 99,
+      "characters": 727,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": 100,
+      "characters": 658,
+      "first_nonempty_line": "示波器"
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": 101,
+      "characters": 587,
+      "first_nonempty_line": "示波器"
+    }
+  ]
+}

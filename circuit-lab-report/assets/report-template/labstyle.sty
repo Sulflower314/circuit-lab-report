@@ -1,0 +1,33 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{labstyle}[2026/11/13 Circuit laboratory report]
+\RequirePackage[margin=2.5cm,headheight=15pt]{geometry}
+\RequirePackage{amsmath,amssymb}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs,tabularx,longtable,array}
+\RequirePackage{siunitx}
+\RequirePackage{xcolor}
+\RequirePackage{caption,subcaption}
+\IfFileExists{placeins.sty}{\RequirePackage{placeins}}{\newcommand{\FloatBarrier}{\par}}
+\RequirePackage{fancyhdr}
+% Existing circuit images need only graphicx. Load circuitikz in main.tex only when redrawing.
+\RequirePackage[hidelinks]{hyperref}
+\graphicspath{{../figures/}{./}}
+\sisetup{per-mode=symbol}
+\linespread{1.3}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\ctexset{
+  section={format=\Large\heiti,number=\chinese{section},beforeskip=1.2em,afterskip=0.6em},
+  subsection={format=\large\heiti,beforeskip=0.8em,afterskip=0.4em}
+}
+\captionsetup{font=small,labelsep=quad}
+\captionsetup[table]{position=top}
+\renewcommand{\arraystretch}{1.15}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 电路实验报告}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newif\ifLabDraft
+\newcommand{\Missing}[1]{\par\noindent{\color{red!65!black}\textbf{待确认：}#1}\par}

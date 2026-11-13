@@ -1,0 +1,13 @@
+% Tool demonstration only; not an experimental circuit or measured result.
+% Include from a document that loads circuitikz. No numeric parameters assumed.
+\begin{figure}[htbp]
+\centering
+\begin{circuitikz}[european resistors]
+  \draw (0,0) to[V,l=$U_{\mathrm{s}}$] (0,3)
+    to[R,l=$R$,i=$I$] (4,3)
+    to[short] (4,0) -- (0,0);
+  \draw (0,0) node[ground] {};
+\end{circuitikz}
+\caption{工具演示电路（非本次实验材料）}
+\label{fig:tool-demo}
+\end{figure}

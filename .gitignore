@@ -1,0 +1,39 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Report sources/data created by an individual experiment
+/inputs/
+/data/
+/notes/
+/paper/
+/results/
+/figures/
+/output/
+/tmp/
+/_skill-validation/
+/_library-validation/
+
+# Project-local additions; the default library is bundled inside the skill
+/资料库/原始资料/
+/资料库/检索文本/
+/资料库/目录/
+/资料库/来源清单.json
+
+# Build products
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+build-pass-*.txt
+check-report.json
+*.zip
+.DS_Store
+Thumbs.db

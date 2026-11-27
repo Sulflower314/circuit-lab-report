@@ -3,7 +3,8 @@
 \RequirePackage[margin=2.5cm,headheight=15pt]{geometry}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{graphicx}
-\RequirePackage{booktabs,tabularx,longtable,array}
+% 表格统一用全线框：竖线 + \hline（每行之间），不用 booktabs 三线表
+\RequirePackage{tabularx,longtable,array}
 \RequirePackage{siunitx}
 \RequirePackage{xcolor}
 \RequirePackage{caption,subcaption}
@@ -24,10 +25,6 @@
 \captionsetup{font=small,labelsep=quad}
 \captionsetup[table]{position=top}
 \renewcommand{\arraystretch}{1.15}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\small 电路实验报告}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0.3pt}
+\pagestyle{plain}
 \newif\ifLabDraft
 \newcommand{\Missing}[1]{\par\noindent{\color{red!65!black}\textbf{待确认：}#1}\par}
